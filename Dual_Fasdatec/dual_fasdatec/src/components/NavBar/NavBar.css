@@ -1,0 +1,64 @@
+.NavBar {
+    width: 100vw;
+    height: 100px;
+    background: linear-gradient(to right, #1B1D1B 0%, #F8FFCF 24%, #FFFFFF 47%, #F8FFCF 88%, #181818 98%);
+    position: relative;
+    
+}
+.NavBar > img {
+    width: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.NavBar > a {
+    padding: 80px;
+    position: relative;
+    top: -45px;
+    color: black;
+    background: transparent;
+    width: 100px;
+    height: 30px;
+}
+
+.NavBar a:hover {
+    transition: all ease .3s;
+    color: rgb(73, 73, 73);
+    
+}
+
+
+.NavBar input {
+    width: 290px;
+    height: 53px;
+    border-radius: 20px;
+    border-color: #d2d2d2;
+    position: relative;
+    top: -45px;
+    color: black;
+}
+
+.NavBar button {
+    background: #9E9E9E;
+    height: 54px;
+    width: 100px;
+    color: black;
+    border-radius: 20px;
+    position: relative;
+    top: -35px;
+    left: 90px;
+    padding-top: -10px;
+    transition: all ease .3s;
+}
+
+.NavBar button:hover{
+    transition: all ease .3s;
+    background-color: #019C36;
+    color: white;
+}
+
+.background-radial {
+    background: radial-gradient(circle, #f00, transparent);
+  }
+
+
