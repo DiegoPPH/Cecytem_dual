@@ -1,0 +1,18 @@
+
+.correccion {
+    background: red;
+}
+
+
+.myswiper {
+
+    width: 100vw;
+    height: 450px;
+    
+}
+
+
+.myswiper > .correccion {
+    display: flex;
+    align-items: center;
+}
