@@ -9,6 +9,9 @@ import carrusel3 from "../../assets/img/Property 1=Carrusel3.png";
 
 
 import './Carrusel.css';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 
 const Carrusel = () => {
